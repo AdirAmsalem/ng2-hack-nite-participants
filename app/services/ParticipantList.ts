@@ -17,7 +17,8 @@ export class ParticipantList {
         res['data'].forEach(participant => {
           this.participants.push({
             name: participant['name'],
-            imageUrl: `https://graph.facebook.com/${participant['id']}/picture?type=large`
+            imageUrl: `https://graph.facebook.com/${participant['id']}/picture?type=large`,
+            facebookUrl: `https://www.facebook.com/${participant['id']}`
           });
         });
       });

@@ -1,8 +1,11 @@
 <ul class="participant-list">
-  <li *ng-for="#participant of participants" class="participant-list-item">
-    <img src="{{participant.imageUrl}}" alt="participant.name">
-    <div class="overlay">
-      <span class="participant-name">{{participant.name}}</span>
-    </div>
-  </li>
+    <li *ng-for="#participant of participants" class="participant-list-item">
+        <a href="{{participant.facebookUrl}}" target="blank">
+            <img src="{{participant.imageUrl}}" alt="participant.name">
+        </a>
+
+        <div class="overlay">
+            <span class="participant-name">{{participant.name}}</span>
+        </div>
+    </li>
 </ul>

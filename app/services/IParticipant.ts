@@ -1,4 +1,5 @@
 export interface IParticipant {
   name: String;
-  imageUrl: String
+  imageUrl: String,
+  facebookUrl: String
 }
