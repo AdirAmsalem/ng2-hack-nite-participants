@@ -1,12 +1,14 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-
 html, body, ul {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 
 .participant-list {
   list-style-type: none;
@@ -35,15 +37,6 @@ html, body, ul {
 .participant-list-item:hover img {
   transition-duration: 0.6s;
   transform: scale(1.05);
-}
-
-.participant-list-item .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  pointer-events: none;
 }
 
 .participant-list-item .participant-name {
