@@ -49,9 +49,16 @@ body {
   line-height: 50px;
   text-align: center;
   transition: bottom 0.2s ease-out;
+  pointer-events: none;
 }
 
 .participant-list-item:hover .participant-name {
   transition-duration: 0.4s;
   bottom: 0;
+}
+
+@media(max-width: 480px) {
+  .participant-list-item {
+    width: 50%;
+  }
 }
