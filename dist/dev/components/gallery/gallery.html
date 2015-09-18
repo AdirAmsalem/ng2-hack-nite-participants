@@ -1,7 +1,7 @@
 <ul class="participant-list">
     <li *ng-for="#participant of participants" class="participant-list-item">
-        <a href="{{participant.facebookUrl}}" target="blank">
-            <img src="{{participant.imageUrl}}" alt="participant.name">
+        <a href="{{participant.facebookUrl}}" target="_blank">
+            <img src="{{participant.imageUrl}}" alt="{{participant.name}}">
         </a>
 
         <span class="participant-name">{{participant.name}}</span>

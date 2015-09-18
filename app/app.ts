@@ -20,7 +20,7 @@ import {FacebookAPI} from './services/FacebookAPI';
 class App {
 
   constructor(private facebookAPI:FacebookAPI) {
-    this.configureFacebookAPI()
+    this.configureFacebookAPI();
   }
 
   private configureFacebookAPI() {
