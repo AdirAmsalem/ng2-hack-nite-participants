@@ -4,7 +4,7 @@ import {Http} from 'angular2/http';
 @Injectable()
 export class FacebookAPI {
   private accessToken:String;
-  private basePath = "https://graph.facebook.com/v2.4/";
+  private basePath = 'https://graph.facebook.com/v2.4/';
 
   constructor(private http:Http) {
   }
